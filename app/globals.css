@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .scrolling-touch {
+      -webkit-overflow-scrolling: touch;
+    }
+    
+    .ms-overflow-none {
+      -ms-overflow-style: none;
+    }
+    
+    .scrollbar-hide {
+      -webkit-overflow-scrolling: touch;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    } 
+}
